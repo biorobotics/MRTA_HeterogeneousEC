@@ -7,7 +7,7 @@ The main file (pipeline_RNet.py) runs the MRTA algorithm to allocate 'N' agents 
 NOTE: Currently the number of each type of agent and terrain type is hardcoded in the pipeline. These can be customized as needed.
 
 The basic flow of the pipeline is as shown in the figure below:
-
+![Flow_chart](MRTA and heterogeneous ergodic coverage integration.jpeg)
 
 ## **Folder structure**
 ```
@@ -38,6 +38,8 @@ python pipeline_RNet.py
 ## **Sample output**
 NOTE: Close the mayavi scene pop ups that come when starting the heterogeneous EC module, they are called when registering an agent. 
 A sample output for the task allocation and ergodic coverage are shown below with 3 agents each of type plane, car and ship with lake environemnt type. 
+
+![MRTA](MRTA_EC.png)
 
 A demo video of the same can be found in: [demo video](https://drive.google.com/file/d/1ltiUGbJdsW-tPNewjME3aeiryTor1_2a/view?usp=sharing)
 
