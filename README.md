@@ -7,7 +7,7 @@ The main file (pipeline_RNet.py) runs the MRTA algorithm to allocate 'N' agents 
 NOTE: Currently the number of each type of agent and terrain type is hardcoded in the pipeline. These can be customized as needed.
 
 The basic flow of the pipeline is as shown in the figure below:
-![Flow_chart](MRTA and heterogeneous ergodic coverage integration.jpeg)
+![Flow_chart](MRTA_EC_flowchart.jpeg)
 
 ## **Folder structure**
 ```
